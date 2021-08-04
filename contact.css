@@ -1,83 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
+header{
+    border-bottom: 1px solid grey;
 }
-Body{
-    background: url("assets/hello.svg");
-    text-align: left;
-    font-size: 15px;
-    object-fit: cover;
-    background-size: cover;
-    
-}
-.intro{
-    width: 80%;
-    margin: 50px auto;
-}
-.input-row{
-    margin-bottom: 20px;
-    justify-content: space-between;
-    display: block;
-}
-.input-row .input-group{
-    flex-basis:45% 
-
-}
-label{
-    margin-bottom: 6px;
-    display: block;
-    color: black;
-}
-textarea{
-    box-sizing: border-box;
-}
-footer{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background: linear-gradient(grey);
-    padding: 100px o, 30px;
-    border-top-left-radius: 125px;
-    font-size: 12px;
-    line-height: 20px;
-}
-.Property{
-    width: 85%;
-    margin: auto;
+.flex-container{
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
     justify-content: space-between;
-
-}
-.col{
-    flex-basis: 25%;
-    padding: 10px;
     
 }
-ul li{
-    list-style: none;
-    margin-bottom: 12px;
+.logo  {
+    color: #2e309e;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    max-width: 100px;
 }
-ul li a{
+
+a{
     text-decoration: none;
-    color: black;
-
 }
-.FIND{
-    margin-bottom: 12px;
 
-
+ul{
+    margin: 0;
+    list-style-type: none;
 }
-.Social-icons .fab{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    color: black;
-    margin-right: 5px;
-    cursor: pointer;
-    
-    
+
+ul li{
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+nav{
+    position: relative;
+    right: 30%;
+}
