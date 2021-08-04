@@ -35,3 +35,7 @@ nav{
     position: relative;
     right: 30%;
 }
+footer{
+    background-color: #777777;
+    padding: 25px;
+}
