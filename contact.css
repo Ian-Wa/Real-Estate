@@ -1,0 +1,190 @@
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,h2,h3,h5{
+    margin: 0px;
+    padding: 0px;
+}
+
+.about{
+    margin: 0px;
+    height: calc(100vh);
+    position: relative;
+    overflow: hidden;
+}
+
+header{
+    border-bottom: 1px solid grey;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+}
+
+.about ul li{
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+ul li a{
+    font-family: 'kreon', serif;
+    text-decoration: none;
+    color: #777777;
+}
+
+nav{
+    position: relative;
+    right: 30%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo  {
+    color: #2e309e;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    max-width: 100px;
+}
+
+.cover{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.about-content{
+    position: relative;
+    right: 100px;
+    top: 140px;
+    text-align: center;
+    max-width: 400px;
+}
+
+
+.about-content h1{
+    font-family: 'ubuntu', sans-serif;
+    width: 550px;
+    font-size: 4.2rem;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+.joinUs-container p{
+    max-width: 400px;
+}
+
+button.rounded{
+    height: 54px;
+    width: 250px;
+    /* padding: 20px; */
+    border: 1px solid #2e309e;
+    background: #FFFFFF;
+    color: #2e309e;
+    border-radius: 50px;
+    position: relative;
+    top: 14px;
+}
+
+#ourAgents{
+    margin: 0px;
+    padding: 33px;
+    background: #FCF6F5;
+}
+
+#ourAgents h2{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #474880;;
+}
+
+#joinUs{
+    position: relative;
+}
+
+.joinUs-container{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    left: 35%;
+    top: 78px;
+    text-align: center;
+}
+
+.joinUs-container button{
+    margin: 30px;
+}
+
+.fade{
+    position: absolute;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);;
+    height: 603.86px;
+    width: 1275px;
+}
+
+footer{
+    background: #777777;
+    padding: 25px;
+}
+
+
+#small{
+    font-family: "ubuntu", sans-serif;
+    font-size: 0.8rem;
+}
+
+.property{
+    max-width: 365px;
+}
+
+.property h5{
+    color: #7475C4;
+}
+
+.col h5{
+    color: #CCCCD2;
+}
+
+.links h5{
+    text-align: center;
+}
+
+.links li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.links li > a{
+    color: black;
+}
+
+small{
+    margin-left: 450px;
+    color: #7475C4;
+}
+
+footer .flex-container{
+    border-bottom: 1px solid;
+}
