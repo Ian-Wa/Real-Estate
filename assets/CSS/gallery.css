@@ -26,4 +26,21 @@ h1,h2,h3,h5{
     background: green;
 }
 
-header{}
+header{
+    border-bottom: 1px solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo  {
+    color: #2e309e;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    max-width: 100px;
+}
