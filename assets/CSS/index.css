@@ -21,6 +21,19 @@ h1,h2,h3,h5{
     justify-content: space-between;
 }
 
+#hero-section{
+    margin: 0px;
+    height: calc(100vh);
+    position: relative;
+    overflow: hidden;
+}
+
+.flex-container > .hero-image{
+    width: 600px;
+    
+    
+}
+
 header{
     border-bottom: 1px solid;
 }
@@ -59,4 +72,29 @@ nav{
     top: 10px;
     left: 50px;
     max-width: 100px;
+}
+
+.image{
+    background-image: url(../images/image1.svg);
+    height: 600px;
+    width:700px;
+    background-position: bottom;
+}
+
+#howItWorks{
+    background-color: #E6E9EC;
+    padding: 20px;
+}
+#howItWorks h2{
+    text-align: center;
+    color:  #2E309E;
+    font-family: kreon, serif;
+    font-size: 1.5rem;
+    padding: 30px;
+} 
+
+.how-it-works-content {
+    justify-content: center;
+    text-align: center;
+    margin: 0px 63px;
 }
