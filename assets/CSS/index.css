@@ -93,6 +93,15 @@ ul li a{
     color: #777777;
 }
 
+ul li a:hover{
+    color: c;
+    border-bottom: 2px solid #2e309e;
+}
+
+ul li a:active{
+    color: #2e309e;
+}
+
 nav{
     position: relative;
     right: 30%;

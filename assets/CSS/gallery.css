@@ -1,0 +1,29 @@
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,h2,h3,h5{
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.browse{
+    flex-direction: column;
+    background: green;
+}
+
+header{}
