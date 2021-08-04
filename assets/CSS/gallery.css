@@ -44,3 +44,7 @@ a{
     left: 50px;
     max-width: 100px;
 }
+
+ul{
+    margin: 0;
+}
