@@ -161,6 +161,20 @@ nav{
 .card-item img{
     width: 100%;
 }
+.apartment-details > p{
+    margin-top: 0;
+    color: black;
+    font-family: "ubuntu", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.apartment-details > span{
+    padding-right: 5px;
+    border-right: 1px solid;
+    color: #454748;
+    
+}
 
 footer{
     background-color: #777777;
