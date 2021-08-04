@@ -98,3 +98,26 @@ nav{
     text-align: center;
     margin: 0px 63px;
 }
+
+#recentlyAdded{
+    margin: 50px;
+}
+
+#recentlyAdded > .flex-container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#recentlyAdded h2{
+    color:  #2E309E;
+    font-family: kreon, serif;
+    font-size: 1.5rem;
+} 
+
+.card-item{
+    width: 32%;
+    padding: 10px;
+}
+.card-item img{
+    width: 100%;
+}
