@@ -45,6 +45,6 @@ a{
     max-width: 100px;
 }
 
-ul{
-    margin: 0;
+nav li{
+    display: inline-block;
 }
