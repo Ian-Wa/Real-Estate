@@ -63,3 +63,48 @@ nav a:hover{
 ul li a:active{
     color: #2e309e;
 }
+
+.stretch{
+    max-width: 100px;
+    flex-wrap: wrap;
+    margin-right: 0;
+}
+
+footer{
+    background-color: #777777;
+    padding: 25px;
+}
+
+footer ul li a{
+    color: black;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer > .flex-container{
+    border-bottom: 1px solid;
+}
+
+footer h5, small{
+    color: #2E309E;
+
+}
+
+small{
+    margin-left: 450px;
+}
+
+.footer-info1 > p{
+    max-width: 200px;
+}
+
+.footer-info3 > span{
+    padding: 5px;
+}
+
+.footer-info2 h5, .footer-info3 h5{
+    color: #CCCCD2;
+    margin: 0;
+}

@@ -56,9 +56,12 @@ button.rounded{
     border-style: none;
     background: rgb(46, 48, 158);
     border-radius: 50px;
-    
+    cursor: pointer;
 }
 
+button a p{
+    color: white;
+}
 
 .flex-container > .hero-image{
     width: 600px;
