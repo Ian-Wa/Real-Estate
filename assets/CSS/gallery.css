@@ -110,7 +110,9 @@ ul{
 }
 
 #available-units h2{
-
+    color: #7475C4;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .one{
