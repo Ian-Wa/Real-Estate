@@ -28,10 +28,16 @@ h1,h2,h3,h5{
 
 header{
     border-bottom: 1px solid;
+    background: white;
 }
 
 a{
     text-decoration: none;
+}
+
+#browse-gallery{
+    height: 100vh;
+    background: #C8A2C8;
 }
 
 .logo  {
@@ -39,12 +45,152 @@ a{
     font-family: 'ubuntu', sans-serif;
     font-size: 1rem;
     font-weight: 900;
+    padding: 22px auto;
     position: relative;
     top: 10px;
     left: 50px;
     max-width: 100px;
 }
 
+.logo > a{
+    margin-bottom: 20px;
+}
+
+nav{
+    position: relative;
+    left: -170px;
+}
+
 nav li{
     display: inline-block;
+}
+
+nav a{
+    padding: 77.3px;
+    color: #777777;
+}
+
+nav a:hover{
+    color: #2e309e;
+    border-bottom: 2px solid #2e309e;
+}
+    
+ul li a:active{
+    color: #2e309e;
+}
+
+
+.list2{
+    /* padding-left: 50%; */
+    margin-top: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.list2 span{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 8rem;
+    padding-left: 20%;
+    color:#7475C4;
+}
+
+.line{
+    padding-left: 40%;
+}
+
+.arrow{
+    padding-left: 40%;
+}
+
+#available-units{
+    padding: 20px;
+}
+
+#available-units h2{
+
+}
+
+.one{
+    padding: 50px;
+}
+input{
+    border: none;
+    cursor: pointer;
+}
+
+.two{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+button.rounded{
+    height: 54px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 14px;
+    border-style: none;
+    background: rgb(46, 48, 158);
+    border-radius: 50px;
+    
+}
+
+.card-details > span{
+    padding-right: 5px;
+    border-right: 1px solid;
+    color: #454748;
+    
+}
+
+.card-details > p{
+    margin-top: 0;
+    color: black;
+    font-family: "ubuntu", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.card-item{
+    margin: 26px;
+}
+
+footer{
+    background-color: #777777;
+    padding: 25px;
+}
+
+footer ul li a{
+    color: black;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer > .flex-container{
+    border-bottom: 1px solid;
+}
+
+footer h5, small{
+    color: #2E309E;
+
+}
+
+small{
+    margin-left: 450px;
+}
+
+.footer-info1 > p{
+    max-width: 200px;
+}
+
+.footer-info3 > span{
+    padding: 5px;
+}
+
+.footer-info2 h5, .footer-info3 h5{
+    color: #CCCCD2;
 }

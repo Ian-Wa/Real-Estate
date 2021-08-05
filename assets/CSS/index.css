@@ -53,10 +53,7 @@ button.rounded{
     color: rgb(255, 255, 255);
     position: relative;
     top: 14px;
-    border-width: initial;
     border-style: none;
-    border-color: initial;
-    border-image: initial;
     background: rgb(46, 48, 158);
     border-radius: 50px;
     
@@ -94,7 +91,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: c;
+    color: #2e309e;
     border-bottom: 2px solid #2e309e;
 }
 
