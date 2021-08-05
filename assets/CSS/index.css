@@ -1,0 +1,221 @@
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,h2,h3,h5{
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero-section{
+    margin: 0px;
+    height: calc(100vh);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content{
+    position: relative;
+    top: 200px;
+    left: 40px;
+}
+
+.hero-content h3{
+    color:  #C4C4C4;
+    font-family: "ubuntu", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.hero-content h1{
+    font-family: "ubuntu", sans-serif;
+    font-size: 3rem;
+    width: 577px;
+}
+
+button.rounded{
+    height: 54px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 14px;
+    border-style: none;
+    background: rgb(46, 48, 158);
+    border-radius: 50px;
+    
+}
+
+
+.flex-container > .hero-image{
+    width: 600px;
+    
+    
+}
+
+header{
+    border-bottom: 1px solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    list-style-type: none;
+
+}
+
+#hero-section ul li{
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+ul li a{
+    font-family: 'kreon', serif;
+    color: #777777;
+}
+
+ul li a:hover{
+    color: #2e309e;
+    border-bottom: 2px solid #2e309e;
+}
+
+ul li a:active{
+    color: #2e309e;
+}
+
+nav{
+    position: relative;
+    right: 30%;
+}
+
+.logo  {
+    color: #2e309e;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    max-width: 100px;
+}
+
+.image{
+    background-image: url(../images/image1.svg);
+    height: 600px;
+    width:700px;
+    background-position: bottom;
+}
+
+#howItWorks{
+    background-color: #E6E9EC;
+    padding: 20px;
+}
+#howItWorks h2{
+    text-align: center;
+    color:  #2E309E;
+    font-family: kreon, serif;
+    font-size: 1.5rem;
+    padding: 30px;
+} 
+
+.how-it-works-content {
+    justify-content: center;
+    text-align: center;
+    margin: 0px 63px;
+}
+
+#recentlyAdded{
+    margin: 50px;
+}
+
+#recentlyAdded > .flex-container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#recentlyAdded h2{
+    color:  #2E309E;
+    font-family: kreon, serif;
+    font-size: 1.5rem;
+    margin-left: 10px;
+} 
+
+#recentlyAdded button{
+    margin-left: 450px;
+}
+
+.card-item{
+    width: 32%;
+    padding: 10px;
+}
+.card-item img{
+    width: 100%;
+}
+.apartment-details > p{
+    margin-top: 0;
+    color: black;
+    font-family: "ubuntu", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.apartment-details > span{
+    padding-right: 5px;
+    border-right: 1px solid;
+    color: #454748;
+    
+}
+
+footer{
+    background-color: #777777;
+    padding: 25px;
+}
+
+footer ul li a{
+    color: black;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer > .flex-container{
+    border-bottom: 1px solid;
+}
+
+footer h5, small{
+    color: #2E309E;
+
+}
+
+small{
+    margin-left: 450px;
+}
+
+.footer-info1 > p{
+    max-width: 200px;
+}
+
+.footer-info3 > span{
+    padding: 5px;
+}
+
+.footer-info2 h5, .footer-info3 h5{
+    color: #CCCCD2;
+}
